@@ -1,0 +1,20 @@
+{
+    "name": "sandy-react-spinner",
+    "version": "1.0.0",
+    "description": "this is my first npm packagee",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sandeepnegi1996/sandy-react-spinner.git"
+    },
+    "keywords": ["javascript", "css", "react"],
+    "author": "sandeepnegi1996",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sandeepnegi1996/sandy-react-spinner/issues"
+    },
+    "homepage": "https://github.com/sandeepnegi1996/sandy-react-spinner#readme"
+}
