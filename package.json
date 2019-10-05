@@ -4,17 +4,34 @@
     "description": "this is my first npm packagee",
     "main": "index.js",
     "scripts": {
+        "lint": "eslint src/*.js",
+        "lint:fix": "prettier-eslint src/*.js --write",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sandeepnegi1996/sandy-react-spinner.git"
     },
-    "keywords": ["javascript", "css", "react"],
+    "keywords": [
+        "javascript",
+        "css",
+        "react"
+    ],
     "author": "sandeepnegi1996",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/sandeepnegi1996/sandy-react-spinner/issues"
     },
-    "homepage": "https://github.com/sandeepnegi1996/sandy-react-spinner#readme"
+    "homepage": "https://github.com/sandeepnegi1996/sandy-react-spinner#readme",
+    "devDependencies": {
+        "eslint": "^6.5.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^10.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-react": "^7.14.3",
+        "eslint-plugin-standard": "^4.0.1",
+        "prettier-eslint": "^9.0.0",
+        "prettier-eslint-cli": "^5.0.0"
+    }
 }
